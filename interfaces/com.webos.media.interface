@@ -1,0 +1,12 @@
+{
+	"service": "com.webos.media",
+	"methods": [
+		{
+			"path": "/getForegroundAppInfo",
+			"description": "Get the current foreground app",
+			"requiredPermissions": [
+				"READ_RUNNING_APPS"
+			]
+		}
+	]
+}
